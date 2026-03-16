@@ -1,0 +1,43 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IntelliJ / JetBrains ----
+.idea/
+**/.idea/
+*.iml
+*.ipr
+*.iws
+out/
+**/out/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Maven ----
+**/target/
+**/*.log
+
+# ---- Gradle ----
+**/.gradle/
+**/build/
+
+# ---- Java ----
+**/*.class
+
+# ---- Spring Boot runtime ----
+**/logs/
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Tooling ----
+**/.classpath
+**/.project
+**/.settings/
+
+# ---- Misc ----
+*.swp
+*.swo
